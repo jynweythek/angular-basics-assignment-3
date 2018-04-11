@@ -1,26 +1,20 @@
-# N5CompleteGuide
+# Angular 5 Basics
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
-## Development server
+## Development server: how to use
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run "npm install" inside this project folder to install all dependencies.
+Make sure you use the latest version of the CLI (upgrade guide below)
+Run "ng serve" to see the app in action (try "npm start" in case "ng serve" fails).
 
-## Code scaffolding
+## How to upgrade the CLI
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run the below commands - only use "sudo" on Mac/ Linux.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+sudo npm uninstall -g angular-cli @angular/cli
+npm cache clean --force
+sudo npm install -g @angular/cli
 
 ## Further help
 
