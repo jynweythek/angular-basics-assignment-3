@@ -1,0 +1,15 @@
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.random-wrapper {
+    height: 30px;
+}
+
+.start-item-highlight-position {
+    color: #ffffff;
+    list-style-position: inside;
+    text-indent: -1.5rem;
+    margin-left: -2.5rem;
+    padding-left: 2.5rem;
+}

@@ -1,0 +1,17 @@
+<button
+    class="btn btn-primary mb-10"
+    (click)="clickHandler()">
+    Display Details
+</button>
+<div class="random-wrapper">
+    <p class="mb-10"
+    [ngClass]="{hidden: clickCounter % 2 === 0}">Random Paragraph ...</p>
+</div>
+<ol>
+    <li *ngFor="let click of clickNoteItems"
+        [ngStyle]="{backgroundColor: getColor(click)}"
+        [ngClass]="{'start-item-highlight-position': click >= startItemHighlightPosition}">
+        <app-time></app-time>
+        <br>
+        about the button has been clicked {{ click }} times</li>
+</ol>
